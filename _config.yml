@@ -1,1 +1,5 @@
 theme: jekyll-theme-slate
+deploy:
+  type: git
+  repo: https://github.com/linchangyi1/jasonlmile.github.io.git
+  branch: main
