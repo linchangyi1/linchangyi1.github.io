@@ -296,7 +296,195 @@ const autonomousRobot = `
                     </div>
                 </div>
             </div>`;
-const courseProject = "courseProject";
+const courseProject = `
+</div>
+            <!-- Launcher -->
+            <div class="brder-system">
+                <h3 class="system-color font-style font-size-title">Rebar Processing Euqipment</h3>
+                <p class=" margin-style font-style font-size-context margin-style ">
+                    The rebar processing euqipment consisting of four moudles is used to process volumed rebar into retiform rebar.
+                </p>
+                <div class="flex-row font-style font-size-context margin-style">
+                    <p>
+                        Four moudles:&nbsp;
+                    </p>
+                    <ul>
+                        <li>
+                            <p>
+                                NO.1  Straightening mechanism.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                NO.2  Cutter mechanism.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                NO.3  Transfering mechanism.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                NO.4  Welding mechanism.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                
+                
+                <div class="font-style font-size-context margin-style border-edge">
+                    <h4 class="font-color font-style font-size-subtitle">Straightening Mechanism</h4>
+                    <p style="text-align: center;">
+                        <video class="video-height-one" src="./static/image//Cours_Projects/1_Theory of Machines and Mechanisms Project/Rebar processing euqipment/straightening mechanism/1.mp4" autoplay loop controls muted></video>
+                    </p>
+                    <div class="flex-row even">
+                        <img class="image-height-three" src="./static/image/Cours_Projects/1_Theory of Machines and Mechanisms Project/Rebar processing euqipment/straightening mechanism/2.png" alt="launcher1">
+                        <img class="image-height-three" src="./static/image/Cours_Projects/1_Theory of Machines and Mechanisms Project/Rebar processing euqipment/straightening mechanism/3.png" alt="launcher2">
+                        <img class="image-height-three" src="./static/image/Cours_Projects/1_Theory of Machines and Mechanisms Project/Rebar processing euqipment/straightening mechanism/4.png" alt="launcher3">
+                    </div>
+                    <div class="margin-style">
+                        <p>Because rebar is usually tied up in a roll, firstly we need to straighten the rebar. the rebar will accross the space between the up two idler wheels and the down three ones. And the gap between them can be justified by the motor to fit different sizes of rebar.</p>
+                    </div>
+                </div>
+
+                <div class="font-style font-size-context margin-style border-edge">
+                    <h4 class="font-color font-style font-size-subtitle">Cutter Mechanism</h4>
+                    <p style="text-align: center;">
+                        <video class="video-height-one" src="./static/image//Cours_Projects/1_Theory of Machines and Mechanisms Project/Rebar processing euqipment/cutter mechanism/1.mp4" autoplay loop controls muted></video>
+                    </p>
+                    <div class="flex-row even">
+                        <img class="image-height-four" src="./static/image/Cours_Projects/1_Theory of Machines and Mechanisms Project/Rebar processing euqipment/cutter mechanism/2.png">
+                        <img class="image-height-four" src="./static/image/Cours_Projects/1_Theory of Machines and Mechanisms Project/Rebar processing euqipment/cutter mechanism/3.png">
+                        <img class="image-height-four" src="./static/image/Cours_Projects/1_Theory of Machines and Mechanisms Project/Rebar processing euqipment/cutter mechanism/4.png">
+                        <img class="image-height-four" src="./static/image/Cours_Projects/1_Theory of Machines and Mechanisms Project/Rebar processing euqipment/cutter mechanism/5.png">
+                    </div>
+                    
+                    <div class="margin-style">
+                        <p>We use cutter mechanism to cut the straight rebar into ones in specific length.</p>
+                    </div>
+                </div>
+
+                <div class="font-style font-size-context margin-style border-edge">
+                    <h4 class="font-color font-style font-size-subtitle">Transfering Mechanism</h4>
+                    <p style="text-align: center;">
+                        <video class="video-height-one" src="./static/image//Cours_Projects/1_Theory of Machines and Mechanisms Project/Rebar processing euqipment/transfering device/2.mp4" autoplay loop controls muted></video>
+                    </p>
+                    <p style="text-align: center;">
+                        <video class="video-height-one" src="./static/image//Cours_Projects/1_Theory of Machines and Mechanisms Project/Rebar processing euqipment/transfering device/1.mp4" autoplay loop controls muted></video>
+                    </p>
+                    <div class="flex-row even">
+                        <img class="image-height-three" src="./static/image/Cours_Projects/1_Theory of Machines and Mechanisms Project/Rebar processing euqipment/transfering device/3.png">
+                        <img class="image-height-three" src="./static/image/Cours_Projects/1_Theory of Machines and Mechanisms Project/Rebar processing euqipment/transfering device/4.png">
+                    </div>
+                    
+                    <div class="margin-style">
+                        <p>After every straight rebar fall into the groove in the roller, we need to strongly hold it until it's transfered to the welding plate below the device. Therefore I designed a mechanical arm which can hold heavy rebar with only a mini-driver.</p>
+                    </div>
+                </div>
+
+                
+                <div class="font-style font-size-context margin-style border-edge">
+                    <h4 class="font-color font-style font-size-subtitle">Welding Mechanism</h4>
+                    <div class="flex-row even">
+                        <img class="image-height-three" src="./static/image/Cours_Projects/1_Theory of Machines and Mechanisms Project/Rebar processing euqipment/welding device/1.png">
+                        <img class="image-height-three" src="./static/image/Cours_Projects/1_Theory of Machines and Mechanisms Project/Rebar processing euqipment/welding device/2.png">
+                        <img class="image-height-three" src="./static/image/Cours_Projects/1_Theory of Machines and Mechanisms Project/Rebar processing euqipment/welding device/3.png">
+                    </div>
+                    <p style="text-align: center;">
+                        <img class="image-height-one" margin="auto" src="./static/image/Cours_Projects/1_Theory of Machines and Mechanisms Project/Rebar processing euqipment/welding device/4.png">
+                    </p>
+                    <div class="margin-style">
+                        <p>The 2D welding device is used to shape the retiform rebar and move it to be welded by a welding arm.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="brder-system margin-top">
+                <h3 class="system-color font-style font-size-title">APP for Signal Synthesis and Analyse with Matlab</h3>
+                <div class="flex-row  justify-center">
+                    <div style="width: 54%;  margin: 10px; height: 100%;" class="flex-column align-center">
+                        <img style="max-width: 100%;" src="./static/image/Cours_Projects/2_Engineering Measurement Project/display.png">
+                        <p class="margin-style-less"><strong>Display Interface</strong></p>
+                    </div>
+                    <div style="width: 46%; margin: 10px; height: 100%;" class="flex-column align-center">
+                        <img style="max-width: 100%;" src="./static/image/Cours_Projects/2_Engineering Measurement Project/framework.png">
+                        <p class=" margin-style-less"><strong>APP Framework</strong></p>
+                    </div>
+                </div>
+                <p style="text-align: center;">
+                    <video class="image-height-one" src="./static/image/Cours_Projects/2_Engineering Measurement Project/matlab.mp4" autoplay loop controls muted></video>
+                </p>
+                <div class="margin-style">
+                    <p>The APP was finished by designing the display interface and embedding some functions.</p>
+                </div>
+            </div>
+
+            <div class="brder-system margin-top">
+                <h3 class="system-color font-style font-size-title">ALU Calculator with Logisim</h3>
+                <div class="flex-row  justify-center">
+                    <div style="width: 48.5%;  margin: 10px; height: 100%;" class="flex-column align-center">
+                        <img style="max-width: 100%;" src="./static/image/Cours_Projects/4_Use Logisim to design ALUcalculator/addition and subtracter/4 bit addition and subtracter.png">
+                        <p class="margin-style-less"><strong>4 bit addition and subtracter</strong></p>
+                    </div>
+                    <div style="width: 51.5%; margin: 10px; height: 100%;" class="flex-column align-center">
+                        <img style="max-width: 100%;" src="./static/image/Cours_Projects/4_Use Logisim to design ALUcalculator/addition and subtracter/8 bit addition and subtracter.png">
+                        <p class="margin-style-less"><strong>8 bit addition and subtracter</strong></p>
+                    </div>
+                </div>
+                <div class="flex-row  justify-center">
+                    <div style="width: 43.7%;  margin: 10px; height: 100%;" class="flex-column align-center">
+                        <img style="max-width: 100%;" src="./static/image/Cours_Projects/4_Use Logisim to design ALUcalculator/addition and subtracter/16 bit addition and subtracter.png">
+                        <p class="margin-style-less"><strong>16 bit addition and subtracter</strong></p>
+                    </div>
+                    <div style="width: 56.3%; margin: 10px; height: 100%;" class="flex-column align-center">
+                        <img style="max-width: 100%;" src="./static/image/Cours_Projects/4_Use Logisim to design ALUcalculator/addition and subtracter/32 bit addition and subtracter.png">
+                        <p class="margin-style-less"><strong>32 bit addition and subtracter</strong></p>
+                    </div>
+                </div>
+                <div class="flex-row  justify-center">
+                    <div style="width: 46%;  margin: 10px; height: 100%;" class="flex-column align-center">
+                        <img style="max-width: 100%;" src="./static/image/Cours_Projects/4_Use Logisim to design ALUcalculator/multipler/6 bit complement array multiplier.png">
+                        <p class="margin-style-less"><strong>6 bit complement array multiplier</strong></p>
+                    </div>
+                    <div style="width: 54%; margin: 10px; height: 100%;" class="flex-column align-center">
+                        <img style="max-width: 100%;" src="./static/image/Cours_Projects/4_Use Logisim to design ALUcalculator/multipler/Arithmetic logic unit.png">
+                        <p class="margin-style-less"><strong>Arithmetic logic unit</strong></p>
+                    </div>
+                </div>
+                <div class="flex-row  justify-center">
+                    <div style="width: 47%;  margin: 10px; height: 100%;" class="flex-column align-center">
+                        <img style="max-width: 100%;" src="./static/image/Cours_Projects/4_Use Logisim to design ALUcalculator/multipler/complement multiplier.png">
+                        <p class="margin-style-less"><strong>complement multiplier</strong></p>
+                    </div>
+                    <div style="width: 53%; margin: 10px; height: 100%;" class="flex-column align-center">
+                        <img style="max-width: 100%;" src="./static/image/Cours_Projects/4_Use Logisim to design ALUcalculator/multipler/source code multiplier.png">
+                        <p class="margin-style-less"><strong>source code multiplier</strong></p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="brder-system margin-top">
+                <h3 class="system-color font-style font-size-title">"Mechanical Design" Project</h3>
+                <div class="flex-row even">
+                    <img class="image-height-three" src="./static/image/Cours_Projects/5_Mechanical Design Project/squash mechanism.png">
+                    <img class="image-height-three" src="./static/image/Cours_Projects/5_Mechanical Design Project/squash mechanism2.png">
+                    <img class="image-height-three" src="./static/image/Cours_Projects/5_Mechanical Design Project/squash mechanism3.png">
+                </div>
+                <div class="margin-style">
+                    <p>This mechanism is used to squash ketchen garbage which has been process such as pulverizing and drying before it falls into this mechanism.</p>
+                </div>
+            </div>
+
+
+            <!--  -->
+            <div class="border-edge">
+                <div></div>
+                <div></div>
+            </div>
+        </div>`;
+
 function changeContent(event,choice){
     const main = document.getElementById("content");
     var html = engineerRobot;
