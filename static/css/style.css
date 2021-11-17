@@ -153,6 +153,9 @@ footer {
 .video-height-two {
     max-width: 45%;
 }
+.margin-style-larger {
+    margin: 30px;
+}
 .margin-style {
     margin: 20px;
 }
@@ -169,6 +172,9 @@ footer {
 text-indent: 2em;
 }
 
+.information-text-gap{
+    line-height: 120%;
+}
 
 
 
