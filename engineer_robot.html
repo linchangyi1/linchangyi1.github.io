@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./static/css/style.css">
+    <title>Engineer_Robot_Test</title>
+</head>
+
+<body>
+    <script type="text/javascript" src="./static/js/component.js"></script>
+    <div id="main" class="flex-column center">
+        <div id="person-info" class="flex-row">
+            <div id="biography" class="flex-row">
+                <div class="flex-column align-center">
+                    <img src="./static/image/photo.jpg" alt="photo" id="photo">
+                    <span class="font-style font-size-name"><strong>Changyi Lin</strong></span>
+                </div>
+                <p class="font-style" style="text-indent: 2em;">
+                    Hi! My name is Changyi Lin. I am currently a senior in the Department of Mechanical Science and
+                    Engineering at Huazhong University of Science and Technology. With my background in Mechanical
+                    Engineering and Computer Science, I have a keen interest in Robotics.
+                </p>
+            </div>
+            <img src="./static/image/hust_logo.jfif" alt="hust-logo" id="hust-logo">
+        </div>
+
+        <!-- header -->
+        <header>
+            <nav>
+                <ul class="flex-row even">
+                    <li><button class="font-style font-size-button" onclick="changeContent(event, 0)">Engineer Robot</button></li>
+                    <li><button class="font-style font-size-button" onclick="changeContent(event,1)">Dart
+                            System</button></li>
+                    <li><button class="font-style font-size-button" onclick="changeContent(event,2)">Autonomous
+                            Robot</button></li>
+                    <li><button class="font-style font-size-button" onclick="changeContent(event,3)">Course
+                            Projects</button></li>
+                    <li><button class="font-style font-size-button" onclick="changeContent(event,4)">xxxx</button>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- 主要内容 -->
+        <div id="content">
+            <div class="font-style font-size-context margin-style border-edge">
+                <h4 class="font-color font-style font-size-subtitle">Functions of Engineer Robot</h4>
+                <div class="flex-row justify-evenly">
+                    <img class="image-height-three" src="./static/image/engineer image/engineer robot 3D.png" alt="engineer robot 3D">
+                    <img class="image-height-three" src="./static/image/engineer image/my teammates.png" alt="my teammates">
+                    <img class="image-height-three" src="./static/image/engineer image/engineer robot compet.png" alt="engineer robot compet">
+                </div>
+                <div class="margin-style">
+                    <div class="flex-row">
+                        <p>
+                            Launcher’s Functions:&nbsp;
+                        </p>
+                        <ul>
+                            <li>
+                                <p>
+                                    NO.1 Traversing stairs.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    NO.2 Mineral grabbing& delivery.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    NO.3 Rescuing partner robots.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <p>
+                        I was in charge for the functions of climbing, mineral grabbing and mechanical arm for rescuing.
+                    </p>
+                </div>
+            </div>
+            <div class="font-style font-size-context margin-style border-edge">
+                <h4 class="font-color font-style font-size-subtitle">Climbing</h4>
+                <p style="text-align: center;">
+                    <video class="video-height-one" src="./static/video/engineer vedio/climbing.mp4" autoplay loop controls muted></video>
+                </p>
+                <div class="margin-style">
+                    <p>Use tread-based mechanism to climb stairs with 97.5% success rate.</p>
+                </div>
+            </div>
+            
+            <div class="font-style font-size-context margin-style border-edge">
+                <h4 class="font-color font-style font-size-subtitle">Mineral-Grabbing Mechanism</h4>
+                <div class="flex-row  justify-center">
+                    <div style="width: 50%;  margin: 10px; height: 100%;" class="flex-column align-center">
+                        <video style="max-width: 100%;" src="./static/video/engineer vedio/4D.mp4" autoplay loop controls muted></video>
+                        <p class="margin-style"><strong>4D Mineral-Grabbing Mechanism (v1)</strong></p>
+                        <p>Grab three boxes of mineral in 6s.</p>
+                    </div>
+                    <div style="width: 50%; margin: 10px; height: 100%;" class="flex-column align-center">
+                        <video style="max-width: 100%;" src="./static/video/engineer vedio/6D.mp4" autoplay loop controls muted></video>
+                        <p class=" margin-style"><strong>6D Mineral-Grabbing Mechanism (v2)</strong></p>
+                        <p>Grab five boxes of mineral with rebounding in 11s.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="font-style font-size-context margin-style border-edge">
+                <h4 class="font-color font-style font-size-subtitle">Mechanical Arm for Rescuing</h4>
+                <div class="flex-row  justify-center">
+                    <div style="width: 50%;  margin: 10px; height: 100%;" class="flex-column align-center">
+                        <img style="max-width: 100%;" src="./static/image/engineer image/2D.png">
+                        <p class="margin-style"><strong>2D Mechanical Arm for Rescuing (v1)</strong></p>
+                        <p>One air cylinder for shrinking.<br/>
+                            One air cylinder for capturing.<br/>
+                            One limit switch functions as trigger.</p>
+                    </div>
+                    <div style="width: 50%; margin: 10px; height: 100%;" class="flex-column align-center">
+                        <img style="max-width: 100%;" src="./static/image/engineer image/1D.png">
+                        <p class=" margin-style"><strong>1D Mechanical Arm for Rescuing (v2)</strong></p>
+                        <p>Only one air cylinder for capturing with <br/>
+                            lower mass, complexity and higher stability. </p>
+                    </div>
+                </div>
+            </div>
+
+            
+            
+
+            
+
+            <!--  -->
+            <div class="border-edge">
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <footer>
+            <span class="font-style">© 2021 by Changyi Lin. All Rights Reserved. Last Modified: 07/10/2021</span>
+        </footer>
+    </div>
+</body>
+
+</html>

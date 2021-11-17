@@ -136,19 +136,19 @@ footer {
     background-color: black;
 }
 .image-height-one {
-    max-width: 95%;
+    max-width: 93.3%;
 }
 .image-height-two {
-    max-width: 50%;
+    max-width: 45%;
 }
 .image-height-three {
-    max-width: 33%;
+    max-width: 28.9%;
 }
 .video-height-one {
-    max-width: 95%;
+    max-width: 93.3%;
 }
 .video-height-two {
-    max-width: 50%;
+    max-width: 45%;
 }
 .margin-style {
     margin: 10px;
@@ -159,3 +159,16 @@ footer {
 .justify-evenly {
     justify-content: space-evenly;
 }
+.text-indent {
+text-indent: 2em;
+}
+
+
+
+
+
+
+
+
+
+
