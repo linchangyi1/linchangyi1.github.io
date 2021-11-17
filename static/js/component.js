@@ -297,8 +297,6 @@ const autonomousRobot = `
                 </div>
             </div>`;
 const courseProject = `
-</div>
-            <!-- Launcher -->
             <div class="brder-system">
                 <h3 class="system-color font-style font-size-title">Rebar Processing Euqipment</h3>
                 <p class=" margin-style font-style font-size-context margin-style ">
@@ -485,6 +483,8 @@ const courseProject = `
             </div>
         </div>`;
 
+const finalproject =`final project`;
+
 function changeContent(event,choice){
     const main = document.getElementById("content");
     var html = engineerRobot;
@@ -500,6 +500,9 @@ function changeContent(event,choice){
             break;
         case 3:
             html = courseProject;
+            break;
+        case 4:
+            html = finalproject;
             break;
     }
     main.innerHTML = html;
