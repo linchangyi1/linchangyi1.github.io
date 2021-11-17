@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./static/css/style.css">
+    <title>Engineer_Robot_Test</title>
+</head>
+
+<body>
+    <script type="text/javascript" src="./static/js/component.js"></script>
+    <div id="main" class="flex-column center">
+        <div id="person-info" class="flex-row">
+            <div id="biography" class="flex-row">
+                <div class="flex-column align-center">
+                    <img src="./static/image/photo.jpg" alt="photo" id="photo">
+                    <span class="font-style font-size-name"><strong>Changyi Lin</strong></span>
+                </div>
+                <p class="font-style" style="text-indent: 2em;">
+                    Hi! My name is Changyi Lin. I am currently a senior in the Department of Mechanical Science and
+                    Engineering at Huazhong University of Science and Technology. With my background in Mechanical
+                    Engineering and Computer Science, I have a keen interest in Robotics.
+                </p>
+            </div>
+            <img src="./static/image/hust_logo.jfif" alt="hust-logo" id="hust-logo">
+        </div>
+
+        <!-- header -->
+        <header>
+            <nav>
+                <ul class="flex-row even">
+                    <li><button class="font-style font-size-button" onclick="changeContent(event, 0)">Engineer Robot</button></li>
+                    <li><button class="font-style font-size-button" onclick="changeContent(event,1)">Dart
+                            System</button></li>
+                    <li><button class="font-style font-size-button" onclick="changeContent(event,2)">Autonomous
+                            Robot</button></li>
+                    <li><button class="font-style font-size-button" onclick="changeContent(event,3)">Course
+                            Projects</button></li>
+                    <li><button class="font-style font-size-button" onclick="changeContent(event,4)">xxxx</button>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- 主要内容 -->
+        <div id="content">
+            <div class="font-style font-size-context margin-style border-edge">
+                <h4 class="font-color font-style font-size-subtitle">Functions of Autonomous Robot</h4>
+                <div class="flex-row justify-evenly">
+                    <img class="image-height-three" src="./static/image/SLAM_image/lateral view.png" >
+                    <img class="image-height-three" src="./static/image/SLAM_image/top view.png" >
+                    <img class="image-height-three" src="./static/image/SLAM_image/hardware.jpg" >
+                </div>
+                <div class="margin-style">
+                    <p>Autonomously search and shoot the rivals in the arena. Technologies relative to algorithms include VIO_Slam(Vins-Mono), dynamic object detection, posture calculating, decision making and route planning.<br/></p>
+                    <p>I am in charge of VIO_Slam algorithm, mechanical design(a chassis with Camera, IMU and PC) and project management.</p>
+                </div>
+            </div>
+            <div class="font-style font-size-context margin-style border-edge">
+                <h4 class="font-color font-style font-size-subtitle">VIO_SLAM System (Vins-Mono)</h4>
+                <p style="text-align: center;">
+                    <video class="video-height-one" src="./static/video/SLAM_vedio/Vins-Mono.mp4" autoplay loop controls muted></video>
+                </p>
+                <div class="margin-style">
+                    <p>Vins-Mono system includes five main modules. They are initialization, VIO(visual-inertial Odometry), loop detection, relocalization and global optimization. I have written a summary about this system in my <a href="https://blog.csdn.net/qq_44305475/article/details/108984838?spm=1001.2014.3001.5502" style="color: blue; font-size: 1.0em; font-family: 'Times New Roman', Times, serif;" >CSDN blog</a>.</p>
+                </div>
+            </div>
+            
+            <div class="font-style font-size-context margin-style border-edge">
+                <h4 class="font-color font-style font-size-subtitle">Shooting rival’s armor</h4>
+                <div class="flex-row  justify-center">
+                    <div style="width: 50%;  margin: 10px; height: 100%;" class="flex-column align-center">
+                        <video style="max-width: 100%;" src="./static/video/SLAM_vedio/Shooting static rival’s armor.mp4" autoplay loop controls muted></video>
+                        <p class="margin-style"><strong>Shooting static rival’s armor</strong></p>
+                    </div>
+                    <div style="width: 50%; margin: 10px; height: 100%;" class="flex-column align-center">
+                        <video style="max-width: 100%;" src="./static/video/SLAM_vedio/Shooting dynamic rival’s armor.mp4" autoplay loop controls muted></video>
+                        <p class=" margin-style"><strong>Shooting dynamic rival’s armor</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="font-style font-size-context margin-style border-edge">
+                <h4 class="font-color font-style font-size-subtitle">Shooting rival’s armor</h4>
+                <div class="flex-row  justify-center">
+                    <div style="width: 50%;  margin: 10px; height: 100%;" class="flex-column align-center">
+                        <video style="max-width: 100%;" src="./static/video/SLAM_vedio/Rotating without moving.mp4" autoplay loop controls muted></video>
+                        <p class="margin-style"><strong>Rotating without moving</strong></p>
+                    </div>
+                    <div style="width: 50%; margin: 10px; height: 100%;" class="flex-column align-center">
+                        <video style="max-width: 100%;" src="./static/video/SLAM_vedio/Rotating with moving.mp4" autoplay loop controls muted></video>
+                        <p class=" margin-style"><strong>Rotating with moving</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="font-style font-size-context margin-style border-edge">
+                <h4 class="font-color font-style font-size-subtitle">Excellent performance of mechanism</h4>
+                <div class="flex-row  justify-center">
+                    <div style="width: 43%;  margin: 10px; height: 100%;" class="flex-column align-center">
+                        <video style="max-width: 100%;" src="./static/video/SLAM_vedio/Excellent performance of chassis suspension.mp4" autoplay loop controls muted></video>
+                        <p class="margin-style"><strong>Chassis suspension</strong></p>
+                    </div>
+                    <div style="width: 57%; margin: 10px; height: 100%;" class="flex-column align-center">
+                        <video style="max-width: 100%;" src="./static/video/SLAM_vedio/Flying across a slope.MOV" autoplay loop controls muted></video>
+                        <p class=" margin-style"><strong>Flying across a slope</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="font-style font-size-context margin-style border-edge">
+                <h4 class="font-color font-style font-size-subtitle">Route Planning</h4>
+                <div class="flex-row  justify-center">
+                    <div style="width: 50%;  margin: 10px; height: 100%;" class="flex-column align-center">
+                        <video style="max-width: 100%;" src="./static/video/SLAM_vedio/Route planning simulator.mp4" autoplay loop controls muted></video>
+                        <p class="margin-style"><strong>Route planning simulator</strong></p>
+                    </div>
+                    <div style="width: 50%; margin: 10px; height: 100%;" class="flex-column align-center">
+                        <video style="max-width: 100%;" src="./static/video/SLAM_vedio/obstacle avoiding demo.mp4" autoplay loop controls muted></video>
+                        <p class=" margin-style"><strong>Obstacle avoiding demo</strong></p>
+                    </div>
+                </div>
+            </div>
+
+
+            
+
+            <!--  -->
+            <div class="border-edge">
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <footer>
+            <span class="font-style">© 2021 by Changyi Lin. All Rights Reserved. Last Modified: 07/10/2021</span>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -221,7 +221,81 @@ const dartSystem = `
                 </div>
             </div>
     `;
-const autonomousRobot = "autonomousRobot";
+const autonomousRobot = `
+<div class="font-style font-size-context margin-style border-edge">
+                <h4 class="font-color font-style font-size-subtitle">Functions of Autonomous Robot</h4>
+                <div class="flex-row justify-evenly">
+                    <img class="image-height-three" src="./static/image/SLAM_image/lateral view.png" >
+                    <img class="image-height-three" src="./static/image/SLAM_image/top view.png" >
+                    <img class="image-height-three" src="./static/image/SLAM_image/hardware.jpg" >
+                </div>
+                <div class="margin-style">
+                    <p>Autonomously search and shoot the rivals in the arena. Technologies relative to algorithms include VIO_Slam(Vins-Mono), dynamic object detection, posture calculating, decision making and route planning.<br/></p>
+                    <p>I am in charge of VIO_Slam algorithm, mechanical design(a chassis with Camera, IMU and PC) and project management.</p>
+                </div>
+            </div>
+            <div class="font-style font-size-context margin-style border-edge">
+                <h4 class="font-color font-style font-size-subtitle">VIO_SLAM System (Vins-Mono)</h4>
+                <p style="text-align: center;">
+                    <video class="video-height-one" src="./static/video/SLAM_vedio/Vins-Mono.mp4" autoplay loop controls muted></video>
+                </p>
+                <div class="margin-style">
+                    <p>Vins-Mono system includes five main modules. They are initialization, VIO(visual-inertial Odometry), loop detection, relocalization and global optimization. I have written a summary about this system in my <a href="https://blog.csdn.net/qq_44305475/article/details/108984838?spm=1001.2014.3001.5502" style="color: blue; font-size: 1.0em; font-family: 'Times New Roman', Times, serif;" >CSDN blog</a>.</p>
+                </div>
+            </div>
+            
+            <div class="font-style font-size-context margin-style border-edge">
+                <h4 class="font-color font-style font-size-subtitle">Shooting rival’s armor</h4>
+                <div class="flex-row  justify-center">
+                    <div style="width: 50%;  margin: 10px; height: 100%;" class="flex-column align-center">
+                        <video style="max-width: 100%;" src="./static/video/SLAM_vedio/Shooting static rival’s armor.mp4" autoplay loop controls muted></video>
+                        <p class="margin-style"><strong>Shooting static rival’s armor</strong></p>
+                    </div>
+                    <div style="width: 50%; margin: 10px; height: 100%;" class="flex-column align-center">
+                        <video style="max-width: 100%;" src="./static/video/SLAM_vedio/Shooting dynamic rival’s armor.mp4" autoplay loop controls muted></video>
+                        <p class=" margin-style"><strong>Shooting dynamic rival’s armor</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="font-style font-size-context margin-style border-edge">
+                <h4 class="font-color font-style font-size-subtitle">Shooting rival’s armor</h4>
+                <div class="flex-row  justify-center">
+                    <div style="width: 50%;  margin: 10px; height: 100%;" class="flex-column align-center">
+                        <video style="max-width: 100%;" src="./static/video/SLAM_vedio/Rotating without moving.mp4" autoplay loop controls muted></video>
+                        <p class="margin-style"><strong>Rotating without moving</strong></p>
+                    </div>
+                    <div style="width: 50%; margin: 10px; height: 100%;" class="flex-column align-center">
+                        <video style="max-width: 100%;" src="./static/video/SLAM_vedio/Rotating with moving.mp4" autoplay loop controls muted></video>
+                        <p class=" margin-style"><strong>Rotating with moving</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="font-style font-size-context margin-style border-edge">
+                <h4 class="font-color font-style font-size-subtitle">Excellent performance of mechanism</h4>
+                <div class="flex-row  justify-center">
+                    <div style="width: 43%;  margin: 10px; height: 100%;" class="flex-column align-center">
+                        <video style="max-width: 100%;" src="./static/video/SLAM_vedio/Excellent performance of chassis suspension.mp4" autoplay loop controls muted></video>
+                        <p class="margin-style"><strong>Chassis suspension</strong></p>
+                    </div>
+                    <div style="width: 57%; margin: 10px; height: 100%;" class="flex-column align-center">
+                        <video style="max-width: 100%;" src="./static/video/SLAM_vedio/Flying across a slope.MOV" autoplay loop controls muted></video>
+                        <p class=" margin-style"><strong>Flying across a slope</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="font-style font-size-context margin-style border-edge">
+                <h4 class="font-color font-style font-size-subtitle">Route Planning</h4>
+                <div class="flex-row  justify-center">
+                    <div style="width: 50%;  margin: 10px; height: 100%;" class="flex-column align-center">
+                        <video style="max-width: 100%;" src="./static/video/SLAM_vedio/Route planning simulator.mp4" autoplay loop controls muted></video>
+                        <p class="margin-style"><strong>Route planning simulator</strong></p>
+                    </div>
+                    <div style="width: 50%; margin: 10px; height: 100%;" class="flex-column align-center">
+                        <video style="max-width: 100%;" src="./static/video/SLAM_vedio/obstacle avoiding demo.mp4" autoplay loop controls muted></video>
+                        <p class=" margin-style"><strong>Obstacle avoiding demo</strong></p>
+                    </div>
+                </div>
+            </div>`;
 const courseProject = "courseProject";
 function changeContent(event,choice){
     const main = document.getElementById("content");
