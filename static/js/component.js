@@ -473,15 +473,7 @@ const courseProject = `
                 <div class="margin-style">
                     <p>This mechanism is used to squash ketchen garbage which has been process such as pulverizing and drying before it falls into this mechanism.</p>
                 </div>
-            </div>
-
-
-            <!--  -->
-            <div class="border-edge">
-                <div></div>
-                <div></div>
-            </div>
-        </div>`;
+            </div>`;
 
 const finalproject =`final project`;
 
