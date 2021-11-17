@@ -1,0 +1,25 @@
+<general assembly drawing>
+The rebar processing euqipment consisting of four moudles is used to process volumed rebar into retiform rebar.
+They are straightening mechanism, cutter mechanism, transfering device and welding device.
+
+straightening mechanism
+Because rebar is usually tied up in a roll, firstly we need to straighten the rebar. the rebar will accross the space between the up two idler wheels and the down three ones. And the gap between them can be justified by the motor to fit different sizes of rebar.
+
+cutter mechanism
+We use cutter mechanism to cut the straight rebar into ones in specific length.
+
+transfering device
+After every straight rebar fall into the groove in the roller, we need to strongly hold it until it's transfered to the welding plate below the device. Therefore I designed a mechanical arm which can hold heavy rebar with only a mini-driver.
+
+welding device
+The 2D welding device is used to shape the retiform rebar and move it to be welded by a welding arm.
+
+
+
+
+
+
+
+
+
+

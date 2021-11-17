@@ -1,0 +1,2 @@
+I gave a talk about autonomous driving at the seminar in the Robotics class.
+PPT can be seen here.

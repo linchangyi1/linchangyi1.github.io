@@ -144,6 +144,9 @@ footer {
 .image-height-three {
     max-width: 28.9%;
 }
+.image-height-four {
+    max-width: 20.875%;
+}
 .video-height-one {
     max-width: 93.3%;
 }
@@ -151,6 +154,9 @@ footer {
     max-width: 45%;
 }
 .margin-style {
+    margin: 20px;
+}
+.margin-style-less {
     margin: 10px;
 }
 .margin-top {

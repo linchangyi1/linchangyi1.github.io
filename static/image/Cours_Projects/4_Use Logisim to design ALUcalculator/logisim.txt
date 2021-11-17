@@ -1,0 +1,16 @@
+Use Logisim to design logical calculators and ALU used for self-inspection.
+
+addition and subtracter:
+4 bit addition and subtracter
+8 bit addition and subtracter
+16 bit addition and subtracter
+32 bit addition and subtracter
+
+multipler:
+5 bit array multiplier
+6 bit complement array multiplier
+Arithmetic logic unit
+complement multiplier
+source code multiplier
+
+ALU
