@@ -1,5 +1,0 @@
-theme: jekyll-theme-slate
-deploy:
-  type: git
-  repo: https://github.com/linchangyi1/linchangyi1.github.io.git
-  branch: main
