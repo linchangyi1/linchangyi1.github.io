@@ -216,7 +216,7 @@ const dartSystem = `
                         <img class="image-height-one" src="./static/video/dart_vedio/UAV0.gif"></img>
                     </p>
                     <div class="margin-style">
-                        <p>Banded for its excessive flexibility.</p>
+                        <p>Performed an ideal result and delivered it to my teammates.</p>
                     </div>
                 </div>
             </div>
@@ -301,12 +301,7 @@ const courseProject = `
 <div id="content">
 <!-- introduce -->
 <div id="dart-introduce" class="flex-row font-size-context font-style">
-    <p>Dart System consists of two subsystem:&nbsp;</p>
-    <ul class="flex-row">
-        <li><strong>one launcher</strong></li>
-        &nbsp;and&nbsp;
-        <li><strong>four gliders</strong></li>
-    </ul>
+    <p>Some interesting course projects are showed in this page. </p>
 </div>
 <!-- Launcher -->
 <div class="brder-system">

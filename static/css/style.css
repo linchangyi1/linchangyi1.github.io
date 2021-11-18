@@ -90,20 +90,20 @@ nav ul li button{
     font-family: 'Times New Roman', Times, serif;
 }
 .font-size-button {
-    font-size: 1.4em;
+    font-size: 1.6em;
     color: white;
     background-color: black;
     padding: 4px;
 }
 .font-size-context {
-    font-size: 1.1em;
+    font-size: 1.3em;
 }
 .font-size-subtitle {
     font-size: 1.1em;
     padding: 5px;
 }
 .font-size-title {
-    font-size: 1.3em;
+    font-size: 1.5em;
     padding: 8px;
 }
 .font-size-name {
@@ -156,7 +156,8 @@ footer {
     max-width: 45%;
 }
 .margin-style-larger {
-    margin: 30px;
+    margin-left: 5%;
+    margin-top: 3%;
 }
 .margin-style {
     margin: 20px;
