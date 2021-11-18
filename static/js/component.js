@@ -491,7 +491,12 @@ const finalproject =`final project`;
 
 function changeContent(event,choice){
     const main = document.getElementById("content");
+    let buttons = document.getElementsByClassName("font-size-button")
     var html = engineerRobot;
+    for(let i=0; i<buttons.length; i++){
+        buttons[i].className = "font-style font-size-button"
+    }
+    buttons[choice].className += " after-click";
     switch(choice){
         case 0:
             html = engineerRobot;
@@ -510,4 +515,16 @@ function changeContent(event,choice){
             break;
     }
     main.innerHTML = html;
+}
+function fixedHeader(){
+    let header = document.getElementById("header");
+    let person_info = document.getElementById("person-info");
+    let bottom = person_info.getBoundingClientRect().bottom;
+    if(bottom <= 0){
+        header.style.position = "fixed";
+        header.style.width = "80%";
+    } else{
+        header.style.width = "100%";
+        header.style.position = "inherit";
+    }
 }
