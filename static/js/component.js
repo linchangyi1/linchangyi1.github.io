@@ -37,7 +37,7 @@ const engineerRobot =`
             <div class="font-style font-size-context margin-style border-edge">
                 <h4 class="font-color font-style font-size-subtitle">Climbing</h4>
                 <p style="text-align: center;">
-                    <video class="video-height-one" src="./static/video/engineer vedio/climbing.mp4" autoplay loop controls muted></video>
+                    <video class="video-height-one" src="./static/video/engineer vedio/climbing.gif" ></video>
                 </p>
                 <div class="margin-style">
                     <p>Use tread-based mechanism to climb stairs with 97.5% success rate.</p>
@@ -48,12 +48,12 @@ const engineerRobot =`
                 <h4 class="font-color font-style font-size-subtitle">Mineral-Grabbing Mechanism</h4>
                 <div class="flex-row  justify-center">
                     <div style="width: 50%;  margin: 10px; height: 100%;" class="flex-column align-center">
-                        <video style="max-width: 100%;" src="./static/video/engineer vedio/4D.mp4" autoplay loop controls muted></video>
+                        <video style="max-width: 100%;" src="./static/video/engineer vedio/4D.gif" ></video>
                         <p class="margin-style"><strong>4D Mineral-Grabbing Mechanism (v1)</strong></p>
                         <p>Grab three boxes of mineral in 6s.</p>
                     </div>
                     <div style="width: 50%; margin: 10px; height: 100%;" class="flex-column align-center">
-                        <video style="max-width: 100%;" src="./static/video/engineer vedio/6D.mp4" autoplay loop controls muted></video>
+                        <video style="max-width: 100%;" src="./static/video/engineer vedio/6D.gif" ></video>
                         <p class=" margin-style"><strong>6D Mineral-Grabbing Mechanism (v2)</strong></p>
                         <p>Grab five boxes of mineral with rebounding in 11s.</p>
                     </div>
@@ -129,11 +129,11 @@ const dartSystem = `
                             alt="Accelerator3.png">
                     </div>
                     <p style="text-align: center;">
-                        <video class="video-height-one" src="./static/video/dart_vedio/Accelerator2.mp4" autoplay loop controls muted></video>
+                        <video class="video-height-one" src="./static/video/dart_vedio/Accelerator2.gif" ></video>
                     </p>
                     <div class="flex-row even">
-                        <video class="video-height-two" src="./static/video/dart_vedio/Accelerator0.mp4" autoplay loop controls muted></video>
-                        <video class="video-height-two" src="./static/video/dart_vedio/Accelerator1.mp4" autoplay loop controls muted></video>
+                        <video class="video-height-two" src="./static/video/dart_vedio/Accelerator0.gif" ></video>
+                        <video class="video-height-two" src="./static/video/dart_vedio/Accelerator1.gif" ></video>
                     </div>
                     <div class="margin-style">
                         <p>Ingeniously apply the meshing between double-sided synchronous belt and connecting plate to
@@ -149,7 +149,7 @@ const dartSystem = `
                     </p>
                     <div class="flex-row  even">
                         <img class="video-height-two" src="./static/video/dart_vedio/Decelerate0.gif" alt="decelerate0"></img>
-                        <video class="video-height-two" src="./static/video/dart_vedio/Decelerate1.mp4" autoplay loop controls muted></video>
+                        <video class="video-height-two" src="./static/video/dart_vedio/Decelerate1.gif" ></video>
                     </div>
                     <div class="margin-style">
                         <p>The rack attaches to the connecting plate is decelerated with dampening springs and locked with a rachet mechanism once the drone is ejected out; rack is finally released with a linear actuator unlocking mechanism.</p>
@@ -164,7 +164,7 @@ const dartSystem = `
                             alt="Accelerator3.png">
                     </div>
                     <p style="text-align: center;">
-                        <video  class="image-height-one" src="./static/video/dart_vedio/Reloading0.mp4" autoplay loop controls muted></video>
+                        <video  class="image-height-one" src="./static/video/dart_vedio/Reloading0.gif"></video>
                     </p>
                     <div class="margin-style">
                         <p>A curved-rail-guided system that relocates drones onto launching rack using one single actuator.</p>
@@ -213,13 +213,14 @@ const dartSystem = `
                             alt="UAV4.PNG">
                     </div>
                     <p style="text-align: center;">
-                        <video class="image-height-one" src="./static/video/dart_vedio/UAV0.mp4" autoplay loop controls muted></video>
+                        <video class="image-height-one" src="./static/video/dart_vedio/UAV0.gif"></video>
                     </p>
                     <div class="margin-style">
                         <p>Banded for its excessive flexibility.</p>
                     </div>
                 </div>
             </div>
+        </div>
     `;
 const autonomousRobot = `
 <div class="font-style font-size-context margin-style border-edge">
@@ -237,7 +238,7 @@ const autonomousRobot = `
             <div class="font-style font-size-context margin-style border-edge">
                 <h4 class="font-color font-style font-size-subtitle">VIO_SLAM System (Vins-Mono)</h4>
                 <p style="text-align: center;">
-                    <video class="video-height-one" src="./static/video/SLAM_vedio/Vins-Mono.mp4" autoplay loop controls muted></video>
+                    <video class="video-height-one" src="./static/video/SLAM_vedio/Vins-Mono.gif"  ></video>
                 </p>
                 <div class="margin-style">
                     <p>Vins-Mono system includes five main modules. They are initialization, VIO(visual-inertial Odometry), loop detection, relocalization and global optimization. I have written a summary about this system in my <a href="https://blog.csdn.net/qq_44305475/article/details/108984838?spm=1001.2014.3001.5502" style="color: blue; font-size: 1.0em; font-family: 'Times New Roman', Times, serif;" >CSDN blog</a>.</p>
@@ -248,11 +249,11 @@ const autonomousRobot = `
                 <h4 class="font-color font-style font-size-subtitle">Shooting rival’s armor</h4>
                 <div class="flex-row  justify-center">
                     <div style="width: 50%;  margin: 10px; height: 100%;" class="flex-column align-center">
-                        <video style="max-width: 100%;" src="./static/video/SLAM_vedio/Shooting static rival’s armor.mp4" autoplay loop controls muted></video>
+                        <video style="max-width: 100%;" src="./static/video/SLAM_vedio/Shooting static rival’s armor.gif"  ></video>
                         <p class="margin-style"><strong>Shooting static rival’s armor</strong></p>
                     </div>
                     <div style="width: 50%; margin: 10px; height: 100%;" class="flex-column align-center">
-                        <video style="max-width: 100%;" src="./static/video/SLAM_vedio/Shooting dynamic rival’s armor.mp4" autoplay loop controls muted></video>
+                        <video style="max-width: 100%;" src="./static/video/SLAM_vedio/Shooting dynamic rival’s armor.gif"  ></video>
                         <p class=" margin-style"><strong>Shooting dynamic rival’s armor</strong></p>
                     </div>
                 </div>
@@ -261,11 +262,11 @@ const autonomousRobot = `
                 <h4 class="font-color font-style font-size-subtitle">Shooting rival’s armor</h4>
                 <div class="flex-row  justify-center">
                     <div style="width: 50%;  margin: 10px; height: 100%;" class="flex-column align-center">
-                        <video style="max-width: 100%;" src="./static/video/SLAM_vedio/Rotating without moving.mp4" autoplay loop controls muted></video>
+                        <video style="max-width: 100%;" src="./static/video/SLAM_vedio/Rotating without moving.gif"  ></video>
                         <p class="margin-style"><strong>Rotating without moving</strong></p>
                     </div>
                     <div style="width: 50%; margin: 10px; height: 100%;" class="flex-column align-center">
-                        <video style="max-width: 100%;" src="./static/video/SLAM_vedio/Rotating with moving.mp4" autoplay loop controls muted></video>
+                        <video style="max-width: 100%;" src="./static/video/SLAM_vedio/Rotating with moving.gif"  ></video>
                         <p class=" margin-style"><strong>Rotating with moving</strong></p>
                     </div>
                 </div>
@@ -274,11 +275,11 @@ const autonomousRobot = `
                 <h4 class="font-color font-style font-size-subtitle">Excellent performance of mechanism</h4>
                 <div class="flex-row  justify-center">
                     <div style="width: 43%;  margin: 10px; height: 100%;" class="flex-column align-center">
-                        <video style="max-width: 100%;" src="./static/video/SLAM_vedio/Excellent performance of chassis suspension.mp4" autoplay loop controls muted></video>
+                        <video style="max-width: 100%;" src="./static/video/SLAM_vedio/Excellent performance of chassis suspension.gif"  ></video>
                         <p class="margin-style"><strong>Chassis suspension</strong></p>
                     </div>
                     <div style="width: 57%; margin: 10px; height: 100%;" class="flex-column align-center">
-                        <video style="max-width: 100%;" src="./static/video/SLAM_vedio/Flying across a slope.MOV" autoplay loop controls muted></video>
+                        <video style="max-width: 100%;" src="./static/video/SLAM_vedio/Flying across a slope.MOV"  ></video>
                         <p class=" margin-style"><strong>Flying across a slope</strong></p>
                     </div>
                 </div>
@@ -287,11 +288,11 @@ const autonomousRobot = `
                 <h4 class="font-color font-style font-size-subtitle">Route Planning</h4>
                 <div class="flex-row  justify-center">
                     <div style="width: 50%;  margin: 10px; height: 100%;" class="flex-column align-center">
-                        <video style="max-width: 100%;" src="./static/video/SLAM_vedio/Route planning simulator.mp4" autoplay loop controls muted></video>
+                        <video style="max-width: 100%;" src="./static/video/SLAM_vedio/Route planning simulator.gif"  ></video>
                         <p class="margin-style"><strong>Route planning simulator</strong></p>
                     </div>
                     <div style="width: 50%; margin: 10px; height: 100%;" class="flex-column align-center">
-                        <video style="max-width: 100%;" src="./static/video/SLAM_vedio/obstacle avoiding demo.mp4" autoplay loop controls muted></video>
+                        <video style="max-width: 100%;" src="./static/video/SLAM_vedio/obstacle avoiding demo.gif"  ></video>
                         <p class=" margin-style"><strong>Obstacle avoiding demo</strong></p>
                     </div>
                 </div>
@@ -334,7 +335,7 @@ const courseProject = `
                 <div class="font-style font-size-context margin-style border-edge">
                     <h4 class="font-color font-style font-size-subtitle">Straightening Mechanism</h4>
                     <p style="text-align: center;">
-                        <video class="video-height-one" src="./static/image//Cours_Projects/1_Theory of Machines and Mechanisms Project/Rebar processing euqipment/straightening mechanism/1.mp4" autoplay loop controls muted></video>
+                        <video class="video-height-one" src="./static/image//Cours_Projects/1_Theory of Machines and Mechanisms Project/Rebar processing euqipment/straightening mechanism/1.gif" ></video>
                     </p>
                     <div class="flex-row even">
                         <img class="image-height-three" src="./static/image/Cours_Projects/1_Theory of Machines and Mechanisms Project/Rebar processing euqipment/straightening mechanism/2.png" alt="launcher1">
@@ -349,7 +350,7 @@ const courseProject = `
                 <div class="font-style font-size-context margin-style border-edge">
                     <h4 class="font-color font-style font-size-subtitle">Cutter Mechanism</h4>
                     <p style="text-align: center;">
-                        <video class="video-height-one" src="./static/image//Cours_Projects/1_Theory of Machines and Mechanisms Project/Rebar processing euqipment/cutter mechanism/1.mp4" autoplay loop controls muted></video>
+                        <video class="video-height-one" src="./static/image//Cours_Projects/1_Theory of Machines and Mechanisms Project/Rebar processing euqipment/cutter mechanism/1.gif" ></video>
                     </p>
                     <div class="flex-row even">
                         <img class="image-height-four" src="./static/image/Cours_Projects/1_Theory of Machines and Mechanisms Project/Rebar processing euqipment/cutter mechanism/2.png">
@@ -366,10 +367,10 @@ const courseProject = `
                 <div class="font-style font-size-context margin-style border-edge">
                     <h4 class="font-color font-style font-size-subtitle">Transfering Mechanism</h4>
                     <p style="text-align: center;">
-                        <video class="video-height-one" src="./static/image//Cours_Projects/1_Theory of Machines and Mechanisms Project/Rebar processing euqipment/transfering device/2.mp4" autoplay loop controls muted></video>
+                        <video class="video-height-one" src="./static/image//Cours_Projects/1_Theory of Machines and Mechanisms Project/Rebar processing euqipment/transfering device/2.gif" ></video>
                     </p>
                     <p style="text-align: center;">
-                        <video class="video-height-one" src="./static/image//Cours_Projects/1_Theory of Machines and Mechanisms Project/Rebar processing euqipment/transfering device/1.mp4" autoplay loop controls muted></video>
+                        <video class="video-height-one" src="./static/image//Cours_Projects/1_Theory of Machines and Mechanisms Project/Rebar processing euqipment/transfering device/1.gif" ></video>
                     </p>
                     <div class="flex-row even">
                         <img class="image-height-three" src="./static/image/Cours_Projects/1_Theory of Machines and Mechanisms Project/Rebar processing euqipment/transfering device/3.png">
@@ -411,7 +412,7 @@ const courseProject = `
                     </div>
                 </div>
                 <p style="text-align: center;">
-                    <video class="image-height-one" src="./static/image/Cours_Projects/2_Engineering Measurement Project/matlab.mp4" autoplay loop controls muted></video>
+                    <video class="image-height-one" src="./static/image/Cours_Projects/2_Engineering Measurement Project/matlab.gif" ></video>
                 </p>
                 <div class="margin-style">
                     <p>The APP was finished by designing the display interface and embedding some functions.</p>
