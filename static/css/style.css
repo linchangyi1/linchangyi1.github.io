@@ -182,12 +182,12 @@ text-indent: 2em;
     line-height: 120%;
 }
 button:hover {
-    background-color:skyblue;
+    background-color:deepskyblue;
     cursor: pointer;
 }
 
 .after-click {
-    background-color: skyblue;
+    background-color: deepskyblue;
 }
 
 
