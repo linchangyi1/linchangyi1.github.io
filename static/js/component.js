@@ -9,7 +9,7 @@ const engineerRobot =`
                 <div class="margin-style">
                     <div class="flex-row">
                         <p>
-                            Launcher’s Functions:&nbsp;
+                            Engineer Robot's Functions:&nbsp;
                         </p>
                         <ul>
                             <li>
@@ -84,7 +84,7 @@ const dartSystem = `
                 <ul class="flex-row">
                     <li><strong>one launcher</strong></li>
                     &nbsp;and&nbsp;
-                    <li><strong>four gliders</strong></li>
+                    <li><strong>four gliders</strong>.</li>
                 </ul>
             </div>
             <!-- Launcher -->
@@ -105,7 +105,7 @@ const dartSystem = `
                             <ul>
                                 <li>
                                     <p>
-                                        NO.1 Accurately launch a glider drone in different high speed(16m/s)
+                                        NO.1 Accurately launch a glider drone in different high speed(16m/s).
                                     </p>
                                 </li>
                                 <li>
@@ -116,7 +116,7 @@ const dartSystem = `
                             </ul>
                         </div>
                         <p>
-                            After 7 strategy iteration, the launcher has a notable perform.
+                            After 7 iterations, the launcher has a notable perform.
                         </p>
                     </div>
                 </div>
@@ -137,9 +137,9 @@ const dartSystem = `
                     </div>
                     <div class="margin-style">
                         <p>Ingeniously apply the meshing between double-sided synchronous belt and connecting plate to
-                            convert the accurate circular motion of motors into linear motion. It firstly save energy in
+                            convert the accurate circular motion of motors into linear motion. It firstly store energy in
                             the high-inertial subsystem and reach a high but stable speed, and then send the plate with
-                            a rack to accommodate a glider to mesh with the outer teeth of the belt.</p>
+                            a rack accommodating a glider to mesh with the outer teeth of the belt.</p>
                     </div>
                 </div>
                 <div class="font-style font-size-context margin-style border-edge">
@@ -152,7 +152,7 @@ const dartSystem = `
                         <img class="video-height-two" src="./static/video/dart_vedio/Decelerate1.gif" ></img>
                     </div>
                     <div class="margin-style">
-                        <p>The rack attaches to the connecting plate is decelerated with dampening springs and locked with a rachet mechanism once the drone is ejected out; rack is finally released with a linear actuator unlocking mechanism.</p>
+                        <p>The rack attaching to the connecting plate is decelerated with dampening springs and locked with a rachet mechanism once the drone is ejected out; rack is finally released with a linear actuator unlocking mechanism.</p>
                     </div>
                 </div>
                 <div class="font-style font-size-context margin-style border-edge">
@@ -195,7 +195,7 @@ const dartSystem = `
                             alt="Vector1.PNG">
                     </div>
                     <div class="margin-style">
-                        <p>Banded for its excessive flexibility.</p>
+                        <p>Abandoned for its excessive flexibility.</p>
                     </div>
                 </div>
                 <div class="font-style font-size-context margin-style border-edge">
@@ -216,7 +216,7 @@ const dartSystem = `
                         <img class="image-height-one" src="./static/video/dart_vedio/UAV0.gif"></img>
                     </p>
                     <div class="margin-style">
-                        <p>Performed an ideal result and delivered it to my teammates.</p>
+                        <p>This glider performed an ideal result and was delivered to my teammates.</p>
                     </div>
                 </div>
             </div>
@@ -231,8 +231,8 @@ const autonomousRobot = `
                     <img class="image-height-three" src="./static/image/SLAM_image/hardware.jpg" >
                 </div>
                 <div class="margin-style">
-                    <p>Autonomously search and shoot the rivals in the arena. Technologies relative to algorithms include VIO_Slam(Vins-Mono), dynamic object detection, posture calculating, decision making and route planning.<br/></p>
-                    <p>I am in charge of VIO_Slam algorithm, mechanical design(a chassis with Camera, IMU and PC) and project management.</p>
+                    <p>Autonomously search and shoot the rivals' armors in the arena. Technologies relative to algorithms include VIO_Slam(Vins-Mono), dynamic object detection, posture calculating, decision making and route planning.<br/></p>
+                    <p>I am in charge of &nbsp;VIO_SLAM(visual-inertial odomerty), mechanical design(a chassis with Camera, IMU and PC) and project management.</p>
                 </div>
             </div>
             <div class="font-style font-size-context margin-style border-edge">
@@ -460,11 +460,11 @@ const courseProject = `
     <div class="flex-row  justify-center">
         <div style="width: 47%;  margin: 10px; height: 100%;" class="flex-column align-center">
             <img style="max-width: 100%;" src="./static/image/Cours_Projects/4_Use Logisim to design ALUcalculator/multipler/complement multiplier.png">
-            <p class="margin-style-less"><strong>complement multiplier</strong></p>
+            <p class="margin-style-less"><strong>Complement multiplier</strong></p>
         </div>
         <div style="width: 53%; margin: 10px; height: 100%;" class="flex-column align-center">
             <img style="max-width: 100%;" src="./static/image/Cours_Projects/4_Use Logisim to design ALUcalculator/multipler/source code multiplier.png">
-            <p class="margin-style-less"><strong>source code multiplier</strong></p>
+            <p class="margin-style-less"><strong>Source code multiplier</strong></p>
         </div>
     </div>
 
@@ -478,7 +478,7 @@ const courseProject = `
         <img class="image-height-three" src="./static/image/Cours_Projects/5_Mechanical Design Project/squash mechanism3.png">
     </div>
     <div class="margin-style">
-        <p>This mechanism is used to squash ketchen garbage which has been process such as pulverizing and drying before it falls into this mechanism.</p>
+        <p>This mechanism is used to squash ketchen garbage which has been processed such as pulverizing and drying before it falls into this mechanism.</p>
     </div>
 </div>`;
 
