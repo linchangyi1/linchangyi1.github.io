@@ -485,6 +485,7 @@ const courseProject = `
 const finalproject =`final project`;
 
 function changeContent(event,choice){
+    document.body.scrollTop = document.documentElement.scrollTop = 0;
     const main = document.getElementById("content");
     let buttons = document.getElementsByClassName("font-size-button")
     var html = engineerRobot;
