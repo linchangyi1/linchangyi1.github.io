@@ -12,7 +12,6 @@ ul {
 a {
     text-decoration: none;
     color: white;
-    font-size: 1.2em;
 }
 
 /* jjj */
@@ -159,7 +158,7 @@ footer {
     max-width: 45%;
 }
 .margin-style-larger {
-    margin-left: 5%;
+    margin-left: 3%;
     margin-top: 3%;
 }
 .margin-style {
@@ -179,7 +178,7 @@ text-indent: 2em;
 }
 
 .information-text-gap{
-    line-height: 120%;
+    line-height: 130%;
 }
 button:hover {
     background-color:deepskyblue;
@@ -192,7 +191,9 @@ button:hover {
 .hidden {
     display:none;
 }
-
+.link-color {
+    color: blue;
+}
 
 
 
