@@ -189,8 +189,9 @@ button:hover {
 .after-click {
     background-color: deepskyblue;
 }
-
-
+.hidden {
+    display:none;
+}
 
 
 
