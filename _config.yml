@@ -3,3 +3,5 @@ deploy:
   type: git
   repo: https://github.com/linchangyi1/linchangyi1.github.io.git
   branch: main
+#Google Analytics
+google_analytics: G-83LXV46HZG  # your google analytics
