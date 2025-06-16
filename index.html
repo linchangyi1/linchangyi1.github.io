@@ -45,12 +45,21 @@
             </tr>
           </tbody></table>
 
+    <style>
+      .pub_highlight_color {
+        /* background-color: #ffffd0;   */
+        background-color: #ffffd073;  
+      }
+    </style>
+
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-        <tr>
+      <tr>
         <td style="padding:10px;width:100%;vertical-align:middle">
           <h2>Research</h2>
           <p>
-            I'm generally interested in the intersection of robotics, tactile sensing, computer vision, and machine learning. My goal is to develop robotic systems that can comprehensively perceive and interact with the physical world.
+            I am passionate about robotics, with a research focus on whole-body loco-manipulation control, visual-tactile sensing, intelligent hardware design, and reinforcement learning.
+            My goal is to develop robotic systems that can fully perceive, deeply understand, and safely interact with the physical world.
+            <!-- Projects I led are <span class="pub_highlight_color">highlighted</span>. -->
           </p>
         </td>
       </tr>
@@ -59,22 +68,23 @@
 
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-      <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
+      <tr onmouseout="smerf_stop()" onmouseover="smerf_start()" class="pub_highlight_color">
         <td style="padding:10px;width:25%;vertical-align:middle">
             <img src='images/publication/locotouch.gif' width=100%>
         </td>
         <td style="padding:10px;width:75%;vertical-align:middle">
           <span class="papertitle">LocoTouch: Learning Dexterous Quadrupedal Transport with Tactile Sensing</span>
-          <br>
+          <div style="height: 0.3em;"></div>
           <strong>Changyi Lin</strong>, Yuxin Ray Song, Boda Huo, Mingyang Yu, Yikai Wang, Shiqi Liu, <br> Yuxiang Yang, Wenhao Yu, Tingnan Zhang, Jie Tan, Yiyue Luo, and Ding Zhao
-          <br>
+          <div style="height: 0.5em;"></div>
           <em>Preprint 2025</em>
           <br>
           <a href="https://arxiv.org/abs/2505.23175" target="_blank">paper</a> |
           <a href="https://linchangyi1.github.io/LocoTouch/" target="_blank">website</a> |
           <a href="https://www.youtube.com/watch?v=pLm9gaQ1JXo" target="_blank">video</a> |
           <a href="https://github.com/linchangyi1/LocoTouch" target="_blank">code (coming)</a> |
-          <a href="https://x.com/changyi_lin1/status/1928467406873153675" target="_blank">X</a>
+          <a href="https://x.com/changyi_lin1/status/1928467406873153675" target="_blank">X</a> |
+          <a href="https://spectrum.ieee.org/video-friday-one-legged-robot" target="_blank">IEEE Spectrum</a>
           <!-- <br>media(<a href="https://spectrum.ieee.org/video-friday-locoman" target="_blank">IEEE Spectrum</a>,
           <a href="https://techxplore.com/news/2024-04-dexterous-legged-robot-simultaneously.html?utm_source=twitter.com&utm_medium=social&utm_campaign=v2" target="_blank">TechXplore</a>,
           <a href="https://engineering.cmu.edu/news-events/news/2024/05/13-home-helper-robot.html" target="_blank">CMU Engineering News</a>) -->
@@ -82,6 +92,11 @@
           <a href="https://www.iotworldtoday.com/robotics/robot-dog-handles-objects-with-hand-like-grippers#close-modal" target="_blank">IoT World Today</a>
           <a href="https://www.hackster.io/news/locoman-lends-robots-a-hand-927b1cb84159" target="_blank">Hackster</a>
           <a href="https://www.cryptopolitan.com/ai-enhanced-four-legged-robot-locoman-human/" target="_blank">Cryptopolitan</a> -->
+          <div style="height: 0.5em;"></div>
+          <em>Tactile sensing unlocks a new level of contact-rich interaction for legged robots!</em><br>
+          Equipped with a high-density distributed tactile sensor, our quadrupedal robot can transport everyday objects without mounting or strapping.
+          The transport policy achieves zero-shot sim-to-real transfer, featuring two task-agnostic components:
+          high-fidelity tactile simulation and robust, symmetric, frequency-adaptive gaits.
         </td>
       </tr>
 
@@ -91,9 +106,9 @@
         </td>
         <td style="padding:10px;width:75%;vertical-align:middle">
           <span class="papertitle">Human2LocoMan: Learning Versatile Quadrupedal Manipulation <br> with Human Pretraining</span>
-          <br>
+          <div style="height: 0.3em;"></div>
           Yaru Niu, Yunzhe Zhang, Mingyang Yu, <strong>Changyi Lin</strong>, Chenhao Li, <br> Yikai Wang, Yuxiang Yang, Wenhao Yu, Tingnan Zhang, Zhenzhen Li, <br> Jonathan Francis, Bingqing Chen, Jie Tan, and Ding Zhao
-          <br>
+          <div style="height: 0.5em;"></div>
           <em>RSS 2025</em>
           <br>
           <a href="https://human2bots.github.io/static/pdfs/human2locoman_rss_2025.pdf" target="_blank">paper</a> |
@@ -101,6 +116,9 @@
           <!-- <a href="https://youtu.be/Lz_wJckllCw?si=wEvmCiXUESJolK6a" target="_blank">video</a> |
           <a href="https://github.com/yxyang/jumping_cod" target="_blank">code</a> |
           <a href="https://x.com/yxyang1995/status/1836529291095662662" target="_blank">X</a> -->
+          <div style="height: 0.5em;"></div>
+          We enable LocoMan to autonomously perform various household tasks in multiple operation modes.
+          We train the policy more efficiently through pretraining on human demonstrations and fine-tuning with teleoperated robot data.
         </td>
       </tr>
 
@@ -110,12 +128,15 @@
         </td>
         <td style="padding:10px;width:75%;vertical-align:middle">
           <span class="papertitle">QuietPaw: Learning Quadrupedal Locomotion with Versatile Noise <br> Preference Alignment</span>
-          <br>
+          <div style="height: 0.3em;"></div>
           Yuyou Zhang, Yihang Yao, Shiqi Liu, Yaru Niu, <strong>Changyi Lin</strong>, Yuxiang Yang, <br> Wenhao Yu, Tingnan Zhang, Jie Tan, and Ding Zhao
-          <br>
+          <div style="height: 0.5em;"></div>
           <em>Preprint 2025</em>
           <br>
           <a href="https://arxiv.org/pdf/2503.05035" target="_blank">paper</a>
+          <div style="height: 0.5em;"></div>
+          By incorporating conditional policy learning with noise constraints,
+          we enable quadrupedal robots to adaptively adjust their locomotion behaviors based on diverse noise preferences using a single policy.
         </td>
       </tr>
 
@@ -126,15 +147,17 @@
         </td>
         <td style="padding:10px;width:75%;vertical-align:middle">
           <span class="papertitle">DTactive: A Vision-Based Tactile Sensor with Active Surface </span>
-          <br>
+          <div style="height: 0.3em;"></div>
           Jikai Xu*, Lei Wu*, <strong>Changyi Lin</strong>, Ding Zhao, and Huazhe Xu
-          <br>
+          <div style="height: 0.5em;"></div>
           <em>Preprint 2024</em>
           <br>
           <a href="https://arxiv.org/pdf/2410.08337" target="_blank">paper</a> |
           <a href="https://ieqefcr.github.io/DTactive/" target="_blank">website</a> |
           <a href="https://drive.google.com/file/d/1QzzIjNFbDpvQvcflzC-6dMTOlpp0q9Jp/view" target="_blank">hardware</a> |
           <a href="https://x.com/ieqefcr/status/1845663779012723115" target="_blank">X</a>
+          <div style="height: 0.5em;"></div>
+          We extend 9DTact with an active surface, enabling efficient continuous in-hand rotation with precise angular pose estimation across diverse objects.
         </td>
       </tr>
 
@@ -144,9 +167,9 @@
         </td>
         <td style="padding:10px;width:75%;vertical-align:middle">
           <span class="papertitle">Agile Continuous Jumping in Discontinuous Terrains</span>
-          <br>
+          <div style="height: 0.3em;"></div>
           Yuxiang Yang, Guanya Shi, <strong>Changyi Lin</strong>, Xiangyun Meng, Rosario Scalise, Mateo<br> Guaman Castro, Wenhao Yu, Tingnan Zhang, Ding Zhao, Jie Tan, Byron Boots
-          <br>
+          <div style="height: 0.5em;"></div>
           <em>ICRA 2025</em>
           <br>
           <a href="https://arxiv.org/pdf/2409.10923" target="_blank">paper</a> |
@@ -154,18 +177,21 @@
           <a href="https://youtu.be/Lz_wJckllCw?si=wEvmCiXUESJolK6a" target="_blank">video</a> |
           <a href="https://github.com/yxyang/jumping_cod" target="_blank">code</a> |
           <a href="https://x.com/yxyang1995/status/1836529291095662662" target="_blank">X</a>
+          <div style="height: 0.5em;"></div>
+          By augmenting the GPU-accelerated RL-QP hierarchical framework (<a href="https://yxyang.github.io/cajun/" target="_blank">CAJun</a>) with perception and precise system identification,
+          we enable quadrupedal robots to perform continuous, terrain-adaptive jumping over challenging environments.
         </td>
       </tr>
 
-      <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
+      <tr onmouseout="smerf_stop()" onmouseover="smerf_start()" class="pub_highlight_color">
         <td style="padding:10px;width:25%;vertical-align:middle">
             <img src='images/publication/locoman.gif' width=100%>
         </td>
         <td style="padding:10px;width:75%;vertical-align:middle">
           <span class="papertitle">LocoMan: Advancing Versatile Quadrupedal Dexterity with Lightweight<br> Loco-Manipulators</span>
-          <br>
+          <div style="height: 0.3em;"></div>
           <strong>Changyi Lin</strong>, Xingyu Liu, Yuxiang Yang, Yaru Niu, Wenhao Yu, Tingnan Zhang,<br> Jie Tan, Byron Boots, and Ding Zhao
-          <br>
+          <div style="height: 0.5em;"></div>
           <em>IROS 2024</em>
           <br>
           <a href="https://arxiv.org/pdf/2403.18197" target="_blank">paper</a> |
@@ -173,13 +199,17 @@
           <a href="https://www.youtube.com/watch?v=d-GLiRPiHIE" target="_blank">video</a> |
           <a href="https://github.com/linchangyi1/LocoMan" target="_blank">hardware & code</a> |
           <a href="https://x.com/changyi_lin1/status/1773368861741486371" target="_blank">X</a> |
-          <br>media(<a href="https://spectrum.ieee.org/video-friday-locoman" target="_blank">IEEE Spectrum</a>,
+          <br>media(<a href="https://spectrum.ieee.org/video-friday-locoman" target="_blank">IEEE Spectrum Cover</a>,
           <a href="https://techxplore.com/news/2024-04-dexterous-legged-robot-simultaneously.html?utm_source=twitter.com&utm_medium=social&utm_campaign=v2" target="_blank">TechXplore</a>,
           <a href="https://engineering.cmu.edu/news-events/news/2024/05/13-home-helper-robot.html" target="_blank">CMU Engineering News</a>)
           <!-- <a href="https://interestingengineering.com/innovation/locoman-qudrupedal-robot" target="_blank">Interesting Engineering</a>
           <a href="https://www.iotworldtoday.com/robotics/robot-dog-handles-objects-with-hand-like-grippers#close-modal" target="_blank">IoT World Today</a>
           <a href="https://www.hackster.io/news/locoman-lends-robots-a-hand-927b1cb84159" target="_blank">Hackster</a>
           <a href="https://www.cryptopolitan.com/ai-enhanced-four-legged-robot-locoman-human/" target="_blank">Cryptopolitan</a> -->
+          <div style="height: 0.5em;"></div>
+          <em>Limbs are not just for walking, they can be arms too!</em><br>
+          We reimagine quadrupedal limbs as 6-DoF arms by equipping them with custom-designed manipulators that mimic huma wrists.
+          Powered by a unified whole-body controller, LocoMan can perform a wide range of dexterous manipulation tasks.
         </td>
       </tr>
 
@@ -189,9 +219,9 @@
         </td>
         <td style="padding:10px;width:75%;vertical-align:middle">
           <span class="papertitle">ArrayBot: Reinforcement Learning for Generalizable Distributed Manipulation through Touch</span>
-          <br>
+          <div style="height: 0.3em;"></div>
           Zhengrong Xue*, Han Zhang*, Jingwen Cheng, Zhengmao He, Yuanchen Ju,<br> <strong>Changyi Lin</strong>, Gu Zhang, and Huazhe Xu
-          <br>
+          <div style="height: 0.5em;"></div>
           <em>ICRA 2024</em>
           <br>
           <a href="https://arxiv.org/pdf/2306.16857" target="_blank">paper</a> |
@@ -199,18 +229,21 @@
           <a href="https://www.youtube.com/watch?v=vhhCsG38Nvw" target="_blank">video</a> |
           <a href="https://github.com/Steven-xzr/ArrayBot" target="_blank">code</a> |
           <a href="https://x.com/ZhengrongX/status/1674779737741488129" target="_blank">X</a>
+          <div style="height: 0.5em;"></div>
+          ArrayBot has 16x16 vertically sliding pillars, each equipped with a tactile sensor.
+          By reshaping actions in the frequency domain, we train a policy that enables ArrayBot to translate a variety of everyday objects with tactile sensing.
         </td>
       </tr>
 
-      <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
+      <tr onmouseout="smerf_stop()" onmouseover="smerf_start()" class="pub_highlight_color">
         <td style="padding:10px;width:25%;vertical-align:middle">
             <img src='images/publication/9dtact.gif' width=100%>
         </td>
         <td style="padding:10px;width:75%;vertical-align:middle">
           <span class="papertitle">9DTact: A Compact Vision-Based Tactile Sensor for Accurate 3D Shape Reconstruction and Generalizable 6D Force Estimation</span>
-          <br>
-      <strong>Changyi Lin</strong>, Han Zhang, Jikai Xu, Lei Wu, and Huazhe Xu
-          <br>
+          <div style="height: 0.3em;"></div>
+          <strong>Changyi Lin</strong>, Han Zhang, Jikai Xu, Lei Wu, and Huazhe Xu
+          <div style="height: 0.5em;"></div>
           <em>RAL & ICRA 2024</em>
           <br>
           <a href="https://arxiv.org/pdf/2308.14277" target="_blank">paper</a> |
@@ -221,18 +254,22 @@
           <a href="https://x.com/changyi_lin1/status/1700896880941568429" target="_blank">X</a> |
           <a href="https://www.youtube.com/watch?v=VxMceWVz7QQ" target="_blank">tutorial-en</a> |
           <a href="https://www.bilibili.com/video/BV1nu411w7t4/" target="_blank">tutorial-cn</a>
+          <div style="height: 0.5em;"></div>
+          <em>9D = 3D Shape Reconstruction + 6D Force Estimation!</em><br>
+          Only white light! No markers! One-shot calibration! Easy fabrication! Open source!<br>
+          So many features to explore! Why not check out the <a href="https://linchangyi1.github.io/9DTact/" target="_blank">website</a>?
         </td>
       </tr>
 
-      <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
+      <tr onmouseout="smerf_stop()" onmouseover="smerf_start()" class="pub_highlight_color">
         <td style="padding:10px;width:25%;vertical-align:middle">
             <img src='images/publication/dtact.gif' width=100%>
         </td>
         <td style="padding:10px;width:75%;vertical-align:middle">
           <span class="papertitle">DTact: A Vision-Based Tactile Sensor that Measures High-Resolution 3D Geometry Directly from Darkness</span>
-          <br>
-        <strong>Changyi Lin</strong>, Ziqi Lin, Shaoxiong Wang, and Huazhe Xu
-          <br>
+          <div style="height: 0.3em;"></div>
+          <strong>Changyi Lin</strong>, Ziqi Lin, Shaoxiong Wang, and Huazhe Xu
+          <div style="height: 0.5em;"></div>
           <em>ICRA 2023</em>
           <br>
           <a href="https://arxiv.org/pdf/2209.13916" target="_blank">paper</a> |
@@ -241,6 +278,10 @@
           <a href="https://github.com/linchangyi1/DTact" target="_blank">hardware & code</a> |
           <a href="https://x.com/changyi_lin1/status/1622952652014518274" target="_blank">X</a> |
           media(<a href="https://www.technology.org/2022/10/01/dtact-a-vision-based-tactile-sensor-that-measures-high-resolution-3d-geometry-directly-from-darkness/" target="_blank">Technology</a>)
+          <div style="height: 0.5em;"></div>
+          <em>The deeper you press, the darker you see!</em><br>
+          We leverage the reflection property of translucent silicone to reconstruct 3D contact geometry using only white light.
+          We also demonstrate its robustness and feasibility for non-planar contact surfaces.
         </td>
       </tr>
     </tbody></table>
